@@ -37,5 +37,16 @@ public class U12StringManipulation {
         //
         //intiger i Stringe cevirme;
         //String sayiUzunlugu= Integer.toString(sayi);
+
+        //================================================================================//
+
+        //matematiksel islemler
+        //
+        //double str1D= Double.parseDouble(str1);
+        //double toplamada kullanilir
+        //double hipotenus= Math.sqrt((kenar1*kenar1)+(kenar2*kenar2));
+        //double da matematiksel islem icin
+        //
+        //-------------------------------------------------------------------------------------------------------
     }
 }

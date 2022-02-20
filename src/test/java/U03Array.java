@@ -28,4 +28,32 @@ public class U03Array {
 
 
     }
+
+    //ARRAY OLUSTURMA
+    //
+    //int arr[]= {1,2,3};
+    //
+    //String isimler[] = {"Veli", "Ece", "Ali"};
+    //
+    //String isimler2[] = new String[3];	bos da olusturulabilir
+    //isimler2[0] = "Ali";			sonradan ekleme veya degistirme
+    //
+    //Arrays.toString(arr)			=array yazdirma
+    //
+    //syso(Arrays.deepToString(arr));		=multiD Arrayin tum elemanlarini yazdirma
+    //
+    //	for (int i = 0; i < isimler2.length; i++) {
+    //		System.out.print(isimler2[i]+" ");
+    //	}							//sadece icindekileri yazdirir. //Ali Ahmet
+    //
+    //arr.length					=uzunlugunu verir *parantez yok.
+    //Arrays.sort(arr);				=kucukte buyuge siralar
+    //Arrays.equals(arr1,arr2)			=iki array index ve deger olarak esit mi TRUE/FALSE
+    //Arrays.binarySearch(arr, 2)		=array da var mi? Varsa index, yoksa negatif sira(lengt)
+    //return arr;					=metoddan istenilen methoda geri döndür
+    //String kacKarakter[]=cumle.split(""); 	=harflerine boler(hiclik)
+    //
+    //List<String> list = Arrays.asList(arr);		=array i arrayList e cevirir.
+    //String arr[ ] = list1.toArray(new String[0]);	=arrayList i array a cevirir
+    //Object arr[ ] = list1.toArray( );		=arrayList i array a cevirir
 }
