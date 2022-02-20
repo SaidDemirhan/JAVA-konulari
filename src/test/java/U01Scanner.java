@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class U01Yazdirma {
+public class U01Scanner {
     public static void main (String[]args){
         java.util.Scanner scan=new java.util.Scanner(System.in);
         System.out.println("isim:");

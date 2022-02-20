@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class U05forLoop {
+public class U05ForLoop {
     public static void main (String[] args){
         //50 den 10  a kadar olan sayilari 3er 3er geri dogru yazdir
 
