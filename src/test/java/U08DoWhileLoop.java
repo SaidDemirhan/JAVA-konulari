@@ -93,4 +93,15 @@ public class U08DoWhileLoop {
         }
         System.out.println("ortak olan "+sayac3+" adet rakam var ve bu/nlar: "+ortakRakamlar);
     }
+
+    //Do While Loop Vs While Loop
+    //
+    //Fark : While Loop, dongunun başlangıcında kosulu kontrol eder ve kosul saglanirsa body
+    // icindeki kodlari calistirir, saglanmazsa kodlar calistirilmaz.
+    //
+    //Do-while loop’ta ise , kosul body icerisindeki kodlar 1 kere calistiktan sonra
+    //kontrol edilir.
+    //
+    //Sonuc : Bir while loop’daki kosul yanlıssa, loop hic caismaz ‘do-wile' loop’ta ise ,
+    // kosul yanlissa kodlar 1 kere calisir.
 }

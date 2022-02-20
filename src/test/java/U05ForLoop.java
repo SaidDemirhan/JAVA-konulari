@@ -58,4 +58,22 @@ public class U05ForLoop {
         }
         System.out.println(faktoryel);
     }
+
+    //For Loop
+    //
+    //Belirli bir koşul sağlandığı sürece tekrarlanması gereken işler için kullanılan kod
+    //bloklarina LOOP(Dongu) denir. Tekrar sayısı belirli olan durumlarda for loop kullanılması
+    //tercih edilir. Baslangic ve bitisi bellidir.
+    //
+    //i) Baslangic degeri
+    //ii) bitirmek icin kosulumuz nedir
+    //iii) her adimda degiskeni nasil degistirecegiz
+    //
+    //➢ Eger Ending Condition hep true verirse loop sonsuz donguye girer
+    //
+    //➢ Eger Loop‘ta Ending Condition hic true olmazsa loop body hic devreye girmez
+    //
+    //➢ loop'da artis degeri pozitif oldugu gibi negatif de olabilir (i-- vb)
+    //
+    //➢ Artis degeri 1 olmak zorunda degil, farkli da olabilir (i+=2 vb..)
 }

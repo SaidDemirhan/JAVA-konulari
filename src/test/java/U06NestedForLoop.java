@@ -37,4 +37,10 @@ public class U06NestedForLoop {
 
         System.out.println("ortakIsimler = " + ortakIsimler);
     }
+
+    //Nested For Loop
+    //
+    //Bazen tek bir loop ile istedigimiz sonuclara ulasamayiz.
+    //Ozellikle iki boyutlu sekiller cizdirmek veya carpim tablosu gibi
+    //sayi ikilileri olusturmak icin nested loop kullanmamiz gerekir.
 }
