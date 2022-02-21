@@ -81,4 +81,37 @@ public class U27LinkedList {
     //pop()		=en yasli üyeyi kuyruktan cikardi ve elemani getirdi.
     //
     //-------------------------------------------------------------------------------------------------------
+
+    //Collection LinkedList Method’lari
+    //
+    //1) add(); LinkedList’in sonuna istenen elemani ekler
+    //
+    //2) add(1,”A”); istenen index’e istenen elemani ekler
+    //
+    //3) addAll(coll); istenen collection’in tum elemanlarini ekler
+    //
+    //4) addAll(2, coll); istenen collection’in tum elemanlarini istenen index’e ekler
+    //
+    //5) addFirst(); istenen elemani, ilk eleman olarak ekler
+    //6) addLast(); istenen elemani, son eleman olarak ekler
+    //
+    //7) remove(); ilk elemani siler
+    //
+    //8) removeFirst(); ilk elemani siler (daha hizlidir)
+    //
+    //9) remove(index); istenen indexdeki elemani siler ve silinen elemani döndürür
+    //
+    //10) remove(eleman); istenen elemani siler. sildi ise true, bulamadi ise false döndurur
+    //
+    //11) removeFirstOccurrence("XXX"); istenen elemanin, ilkini siler.
+    //
+    //12) removeLast(); son elemani siler
+    //
+    //13) removeAll(list); istenen listedeki tum elemanlari siler
+    //
+    //14) contains(eleman); istenen eleman listede var ise true, yoksa false döndurur
+    //
+    //15) containsAll(liste); istenen listenin tumu aranan listede var ise true, yoksa false döndurur
+    //
+    //16) get(index); istenen indexdeki elemani getirir
 }

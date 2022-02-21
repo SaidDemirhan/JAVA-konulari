@@ -61,4 +61,75 @@ public class U28HashSet {
     //
     //
     //*******************************************************************************************************
+
+    //Collections / Sets
+    //
+    //Set (interface) , matematikteki kume mantigiyla calisir, her element unique’dir.
+    //
+    //Java elementleri unique yapmak icin HASH ALGORITMASI kullanir.
+    //
+    //Set, direkt kullanilamaz cunku interface’dir ve obje olusturulamaz.
+    //
+    //3 Child class’indan bizim icin onemli olan ozellige gore istedigimizi kullanabiliriz.
+    //
+    //Collections’in bir ozelligi de farkli data turunden elementleri ekleyebilmenizdir.
+    //
+    //Bunun icin esitligin sol tarafindaki <> (data turu) kaldirilabilir veya data turu olarak Object yazilabilir. Ancak bu tavsiye edilmez cunku Java’nin cok fazla Casting yapmasi gerekir.
+    //
+    //Hashing, farklı büyüklükteki girdilerden sabit büyüklükte bir çıktı yaratma sürecine verilen isimdir.
+    //
+    //Bu işlem, hash fonksiyonları olarak bilinen matematiksel formüllerin kullanımıyla yapılır.
+    //
+    //Universitelerdeki ogrenci numaralari gibi bir ogrenci ismi soruldugunda numarasini bulursaniz onunla ilgili tum bilgilere ulasabilirsiniz.
+    //
+    //Farklı hash fonksiyonları farklı büyüklüklerde çıktı yaratır fakat her bir hashing algoritması için olası çıktı büyüklüğü her zaman sabittir.
+    //
+    //Bir collection’in hash degerini ogrenmek icin hashCode() method’u kullanilir.
+    //
+    //	Hashing Nasil Calisir ?
+    //
+    //➢ Bir HashCollection olusturuldugunda Java 16 bucket olusturur ve elementleri bu bucket’lara yerlestirmeye baslar.
+    //
+    //➢ Olusturulan bucket’larin %75’i doldugunda Java 16 bucket daha olusturur. Buna Load Factor denir.
+    //
+    //➢ Java kullandigimiz key’i kullanarak hash kod uretir. Eger uretilen hash kod daha once uretilen bir hash kod ile ayni ise buna Hash Collision denir
+    //
+    //➢ Hash Collision gerceklestiginde cozum icin 2 yol vardir.
+    //	A) LinkedList kullanmak
+    //	B) Formulle belirlenen yeni bir hash kod uretmek
+    //
+    //HashSet, elemanlari icin herhangi bir siralama yapmaz.
+    //
+    //Elemanlari yazdirdiginizda veya cagirdiginizda herhangi bir siralama ile gelebilirler.
+    //
+    //HashSet, duplication’a izin vermez.
+    //
+    //Eger bir elemani tekrar HashSet’e eklemek isterseniz eski olan silinip, yeni olan uzerine yazilir.
+    //
+    //HashSet, null degere izin verir.
+    //
+    //Bununla birlikte birden fazla null degerini bir HashSet’e eklemek isterseniz sadece bir tane null degeri olur.
+    //
+    //
+    //	Collection Set Method’lari
+    //
+    //1) add(); Set’e eleman ekler
+    //
+    //2) addAll(coll); istenen collection’in tum elemanlarini ekler
+    //
+    //3) clear(); Tum elemanlari siler
+    //
+    //4) contains(eleman); istenen eleman sett’te varsa true, yoksa false döndurur
+    //
+    //5) containsAll(coll); istenen coll’in tumu aranan sette var ise true, yoksa false döndurur
+    //
+    //6) equals(set2); istenen set’le tum elemanlar ayni ise true, yoksa false döndurur
+    //
+    //7) isEmpty(); Sette hic eleman yoksa true, varsa false döndurur
+    //
+    //8) remove(eleman); istenen eleman bulursa siler ve true döndurur, bulamazsa false döndurur
+    //
+    //9) removeAll(coll); coll’nin tum elemanlarini bulursa siler ve true döndurur, bulamazsa false döndurur
+    //
+    //10) size(); set’in eleman sayisini verir
 }

@@ -30,4 +30,18 @@ public class U33Deque {
     //retainAll()
     //size()
     //-------------------------------------------------------------------------------------------------------
+
+    //Collections / Deque
+    //
+    //Deque Double Ended Queue : Queue'larda FIFO gecerli, Deque'lerde hem FIFO hem de LIFO(Last In First Out) gecerlidir.
+    //
+    //Deque bir interface’dir dolayisiyla constructor’i yoktur. LinkedList constructor’i kullanilarak deque olusturulabilir.
+    //
+    //?Deque null u eleman olarak kabul etmez.
+    //
+    //Deque’de ilk ve son eleman onemli oldugu icin ilk ve son elemana ozel bircok method vardir.
+    //
+    //	getFirst() - getLast()
+    //	peekFirst() - peekLast()
+    //	pollFirst() - pollLast()
 }

@@ -147,8 +147,8 @@ list1.clear();
 
 
 //	Array’i ArrayList’e Cevirmek
-
-//List<String> list = Arrays.asList(arr);
+String arr[]={"A","B"};
+List<String> list = Arrays.asList(arr);
 
 //Uzunlugu degistirilemeyen bir list’e cevirir. Yeni olusturulan listte add(), remove() ve clear()
 // methodlarini kullanamazsiniz. Exception verir.
@@ -161,7 +161,7 @@ list1.clear();
 
 //	ArrayList’i Array’e Cevirmek
 
-String arr[ ] = list1.toArray(new String[0]); 		// veya
+String arr2[ ] = list1.toArray(new String[0]); 		// veya
 
 Object arr1[ ] = list1.toArray( );					//seklinde iki yöntem ile array e cevirebiliriz.
 

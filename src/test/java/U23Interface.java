@@ -59,4 +59,67 @@ public interface U23Interface {
     //=>Interface, nesnenin ne yapmasi gerektigini belirler ama nasil yapmasi gerektigini BELIRLEMEZ.
     //*Selenyum daki WebDreiver ayni zamanda bir INTERFACE dir.
     //-------------------------------------------------------------------------------------------------------
+
+    //Interfaces
+    //
+    //➢ Interface bir class degildir. Interface interface’dir
+    //
+    //➢ Interface içinde sadece kendisinden türeyen sınıfların içini doldurmak zorunda olduğu, body’si olmayan method’larin olusturuldugu bir yapıdır.
+    //
+    //➢ Kısacası kendisini inherit eden class’lar için, yerine getirmeleri gereken metodları belirten “tum alanlari doldurulmak zorunda olan bir sablon” gibidir.
+    //
+    //➢ Interface’ler somutlastirilamaz (can not be instantiated) yani Interface’de obje olusturulamaz.
+    //
+    //	Interface Nicin Kullanilir?
+    //
+    //➢ Interface bir cesit to do list’dir. Concrete class’lari interface’deki tum metodlari implement etmek zorunda birakir. Nasil yapilacagina degil ne yapilacagina odaklanir
+    //
+    //➢ Bir class birden fazla class’a extend edilemez ama birden fazla interface’e implement edilebilir.
+    //
+    //➢ Interface’e sadece abstract public method’lar konabilir.
+    //
+    //➢ Return type’lar farkli olabilir
+    //
+    //➢ Interface icindeki variable’lar mutlaka public, static , ve final olmalidir.
+    //private veya protected variable’lar compile time error verir.
+    //
+    //➢ Interface icindeki variable’lari mutlaka initialize etmek zorundasiniz, aksi takdirde Compile Time Error alirsiniz. int a = 12; gibi yapmalisiniz.
+    //
+    //Özetle Interface
+    //1) Class degildir.
+    //2) sadece abstract method’lar konabilir.
+    //3) Tam abstraction (soyutluk) saglar
+    //4) Bir class’dan istediginiz kadar interface’i inherit edebilirsiniz. Coklu inheritance’a uygundur.
+    //5) Hiz acisindan abstract class’a gore yavastir.
+    //6) Icindeki tüm nesnelerin “public” olması gerekir
+    //7) metodlar static olamaz
+    //8) Interface constructor’a sahip degildir
+    //
+    //	Interface’ler Icin Inheritance Kurallari
+    //
+    //1) Interface’lerde inheritance yapmak icin implements keyword’u kullanilir.
+    //
+    //2) Bir class birden fazla Interface’e implements ile baglanabilir
+    //	public class Arabam implements ElektrikMotor, OtomatikVites, Sedan{}
+    //
+    //3) Birden fazla Interface’i implements ile inherit ettigimizde ayni isimde variable veya method’larla karsilasabiliriz.
+    //Bu durumda Java ne yapacagini net olarak bilmek isteyeceginden istedigimiz variable ismini interface ismi ile birlikte yazariz.
+    //
+    //Method’lar mecburen override yapilacagi icin hangi interface’den alindiginin hicbir onemi yoktur.
+    //	@Override
+    //	public void YakitTuru(){}
+    //
+    //4) Ayni isme fakat farkli return type’a sahip methodlari olan Interface’leri ayni class’dan inherit edemeyiz .
+    //
+    //	Interface’lerde Body’si Olan Method Yazilabilir mi ?
+    //
+    //Java8’e kadar interface icinde “body’si olan method” olusturulamiyordu. Java8 ve uzeri versiyonlarda bu opsiyonu ekledi.
+    //
+    //A) method’un basina “default” keyword’u kullanabilirsiniz. Burada kullandigimiz “default” access modifier degil, method turudur.
+    //
+    //B) return type’dan once “static” keyword’u kullanabilirsiniz. Burada kullandigimiz “static” daha once kullandigimiz static gibi degildir. Cunku ayni paketteki baska class’dan clasIsmi.methodIsmi() yazarak kullanilamiyor.
+    //
+    //NOT : default veya static keyword’u ile olusturulan method’lar override yapilmak zorunda degildir.
+    //
+    //Farki: Default keyword’u ile olusturulan method’lari obje kullanarak cagirabiliriz ama static olanlari inherit ettigimiz interface’den ismi ile cagirabiliriz.
 }

@@ -186,4 +186,125 @@ public class U20ErrorsExceptions {
     //
     //
     //*******************************************************************************************************
+
+
+    //Exception
+    //
+    //Java’da bir program calistirildiginda, farkli sorunlar olusabilir.
+    //
+    //➢ Programcilarin yazdigi kodlarda hata olabilir
+    //
+    //➢ Kullanicidan istenen degerlerde uygun olmayan deger girilebilir
+    //➢ Internet baglantisinin kesilmesi gibi ongorulemeyen hatalar olabilir
+    //
+    //	Her sey olmasi gerektigi gibi.. No exception
+    //
+    //	Sorun var ama halledilebilir.. No Exception
+    //
+    //	Sorun var ve halledilemez! Throw Exception
+    //
+    //Bir program calistirildiginda, Java cozemedigi bir sorunla karsilastiginda calismayi durdurur (stops execution) ve “throws an exception”  hatasi verir.
+    //
+    //Java karsilastigi sorunu ve sorunla karsilastigi durumu bize rapor eder (konsol daki kirmizi ve mavi yazilar)
+    //
+    //*Sorunu cozmek icin try - catch block kullaniriz.
+    //*Try blogu tek basina calismaz. (Sorun cikmazsa yapacagi islem )
+    //*Try blogundan sonra mutlaka catch block(lari) veya finally block olmalidir. (Beklenen exception turu gerceklendiginde calisacak kodlar )
+    //
+    //	Catch block’da kullanilan “e” nin gorevi
+    //
+    //➢ Catch block’da yazdigimiz Exception ismi class adi (Data turu) , “e” ise variable ismidir.
+    //
+    //➢ e. yazinca ilgili exception class’indan kullanabilecegimiz method’lari gorebiliriz.
+    //
+    //	File Input/Output Exceptions
+    //
+    //Java’dan bir dosya okumasini veya bir dosyaya yazmasini istedigimizde, Java olasi problemleri ongorur ve bizden cozum ister.
+    //
+    //Buradaki CTE, kodumuzda bir hata oldugu icin degil yazdigimiz kod calistiginda olusabilecek olasi okuma hatalarinda ne yapilacagina karar vermek icindir.
+    //
+    //Muhtemel sorunlar birden fazla ise;
+    //
+    //1) Ic ice try-catch bloklari kullanilabilir.
+    //
+    //2) Tek try- multiple catch kullanilabilir.
+    //
+    //Birden fazla catch block kullanilacaksa yazilacak exception’larin sirasi onemlidir.
+    //Birbiri ile parent-child iliskisi olan exception’lar ise once child olan yazilmalidir.
+    //Aksi durumda child exception kullanilmaz olur.
+    //
+    //3) Eger tum exception’lari iceren bir exception varsa sadece onu yazabiliriz.
+    //
+    //		Exception Types
+    //
+    //	1) Compile Time (Checked) Exceptions CTE
+    //
+    //Kod yazildiginda Java’nin ongordugu olasi sorunlardir.
+    //Java olasi bir problem gordugunde kirmizi cizgi ile bizi uyarir.
+    //
+    //(Not: Her kirmizi cizgi exception degildir.)
+    //(FileNotFoundException,IOException)
+    //
+    //	2) RunTime (Unchecked) Exceptions RTE
+    //
+    //Kod calistirildiginda ortaya cikan exception’lardir.
+    //(ArithmeticException)
+    //
+    //	2a) NullPointerException
+    //
+    //➢ null objesini uygun olmayan bir komutta kullanirsaniz Java NullPointerException verir.
+    //
+    //➢ NullPointerException run time exception’dir.
+    //
+    //	2b) illegalArgumentException
+    //
+    //……… Yas eksi deger girildiginde
+    //
+    //	2c) ArrayIndexOutOfBoundsException
+    //
+    //➢ Array veya List’de olmayan bir index icin islem yapmak isterseniz Java ArrayIndexOutOfBoundsException verir.
+    //
+    //➢ ArrayIndexOutOfBoundsException run time exception’dir.
+    //
+    //	2d) ClassCastException
+    //
+    //➢ Bir datayi casting yapilamayacak bir dataya cevirmek istediginizde ClassCastException verir.
+    //
+    //➢ ClassCastException run time exception’dir.
+    //
+    //	2e) NumberFormatException
+    //
+    //➢ Sayi olmayan bir String’i sayiyaya cevirmeye calisirsaniz Java NumberFormatException verir.
+    //
+    //➢ NumberFormatException run time exception’dir.
+    //
+    //	3a)IOException
+    //
+    //Programimizda bir file’a input/output yapiliyorsa ve program calisirken bir problem cikarsa olusur.
+    //Checked exception’dir ve kod yazilirken mutlaka handle edilmelidir.
+    //
+    //	3b)FileNotFoundException
+    //
+    //Programimizda bir dosyayi okumaya calisiyorken, dosya bulunamazsa olusur. IOException’in subclass’idir.
+    //
+    //	3c)ClassNotFoundExeption
+    //
+    //	3d)SQLExeption
+    //
+    //	3e)NoSuchMethodExeption
+    //
+    //	throws
+    //
+    //➢ throws keyword “checked exceptions” icin kullanilir.
+    //
+    //➢ throws keyword, exception handle yapilmak istenmiyorsa kullanilir.
+    //	NOT: (Exception olusunca program calismasi durur)
+    //
+    //➢ throws keyword’den sonra, aralarina virgul konularak, birden fazla exception yazilabilir
+    //
+    //➢ throws keyword method body icinde kullanilamaz, kullanilacaksa method isminin oldugu satirda yazilmalidir.
+    //
+    //➢ throws keyword’den sonra birden fazla exception kullanilacaksa ve yazilan exception’lar arasinda parent child iliskisi varsa , child exception yazilabilir ama tavsiye edilmez.
+    //Cunku parent exception tum durumlari kapsayacaktir.
+    //(Hedef farkli durumlar icin aciklama yazip handle etmek olmadigindan, bir exception’in calismasi yeterlidir)
 }

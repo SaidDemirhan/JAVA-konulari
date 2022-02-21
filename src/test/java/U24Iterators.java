@@ -19,4 +19,14 @@ public class U24Iterators {
     //             it1.remove(); //getirilen elemani siler.
     //        }								//System.out.println(l); //[]
     //-------------------------------------------------------------------------------------------------------
+
+    //Iterators
+    //
+    //➢ Java iterator, collection elemanlarımızın arasında gezinmemize ve elemanlari degistirmemize yarar.
+    //
+    //➢ Collections’da her element index yapisini desteklemez, index olmadan tum elementlere ulasmak icin for-each loop kullanabiliriz ancak for-each loop ile elementleri kalici olarak degistirme veya silme imkani olmadigi icin Iterator kullanimini tercih ederiz.
+    //
+    //Iterator interface oldugu icin direkt obje olusturmamiz mumkun degildir. Bunun yerine kullanacagimiz collection ismini yazip “.” kullanarak iterator method’unu cagirabiliriz.
+    //
+    //Iterator ile calisirken imlec’in nerede oldugu cok onemlidir. Dolayisiyla kodumuz calismadan once ve sonra imlec’in konumunu dikkate almamiz gereklidir.
 }

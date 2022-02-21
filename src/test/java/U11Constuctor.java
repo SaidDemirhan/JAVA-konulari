@@ -23,6 +23,60 @@ public class U11Constuctor {
 
         //O classtaki ulasmamiza izin verilen tüm bilgilere ulasabiliyoruz.
 
+
+
+        //==============================================================//
+
+        //Constructor
+        //
+        //Java’da object olusturmak icin kullanilan kod blogudur.
+        //
+        //Constructor calismadan object olusturulmasi mumkun degildir
+        //
+        //	Java object’leri nasil olusturur ?
+        //
+        //Java’da Class’lar object uretmek icin kullanilir
+        //
+        //Java’da bir Class olusturdugumuzda, Java object olusturabilmemiz icin default constructor olusturur.
+        //
+        //Default constructor Class icinde gorulmez
+        //
+        //Kullanici yeni bir Constructor olusturursa Java default constructor’i siler.
+        //
+        //Constructor, Class icerisinde method’larin disinda olusturulur.
+        //
+        //Constructor’in ismi Class ismi ayni olmalidir.
+        //
+        //Constructor’larin return type’lari olmaz
+        //
+        //	Parametrized Constructor (Parametreli Constructorlar)
+        //
+        //➢Olusturdugumuz obje icin default deger disinda deger atamak icin Assignment yapmaliyiz.
+        //
+        //➢Deger atama islemini obje olustururken yapmak istersek atama yapacagimiz variable’lari
+        // iceren constructor olusturabiliriz.
+        //
+        //➢Bu durumda this ile yolladigimiz degerleri instance variable’lara assign etmeliyiz.
+        //
+        //Eger;
+        //
+        //Class icinde birden fazla Constructor olursa Java obje create ederken kullandigimiz argument’lere gore uygun constructor’i kullanir
+        //
+
+
+
+        //=========================================================================//
+
+        //	Constructor Call
+        //
+        //➢Obje olusturulurken constructor calisir.
+        //
+        //➢Bir constructor’dan diger constructor’i cagirmak icin this(parametreler); kullanilir.
+        //
+        //➢Kural 1 : this(parametre); cagrildigi constructor’in ilk satirinda yazilmalidir
+        //
+        //➢Kural 2: Kural 1’den dolayi bir constructor icinde sadece 1 constructor cagrilabilir
+
     }
 
     //CONSTRUCTOR

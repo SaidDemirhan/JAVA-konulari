@@ -42,4 +42,15 @@ public class U25ListIterators {
     //            System.out.print(li.previous()+" ");	//40 14 45 23 56 13 2
     //        }
     //-------------------------------------------------------------------------------------------------------
+
+    //ListIterator
+    //
+    //NOT : ListIterator iterator’in child interface’idir ama  daha fazla method’a sahip oldugu icin
+    // daha cok kullanilir.
+    //
+    //Iterator ve ListIterator arasındaki en büyük fark,
+    //Iterator'ın koleksiyondaki öğeleri yalnızca ileri yönde hareket ettirebilmesidir,
+    // cunku next(), hasNext(), remove()
+    // ve forEachRemaining() method’larina sahiptir. ListIterator ise bir koleksiyondaki öğeleri
+    // hem ileri hem de geri yönde hareket ettirebilir .
 }

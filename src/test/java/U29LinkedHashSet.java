@@ -22,4 +22,13 @@ public class U29LinkedHashSet {
     //size()
     //
     //*******************************************************************************************************
+
+    //LinkedHashSet:
+    //
+    //1) Tekrarli eleman kabul etmezler
+    //2) Elemanlari ekleme sirasina(insertion order) gore dizerler.
+    //3) Ekleme ve remove islemlerinde hizlidirlar.
+    //4) LinkedHashSet, HashSet'den yavastir.
+    //
+    //retainAll(coll); coll’nin elemanlarinin disindaki tum elemanlari siler, silme islemi yapti ise true, yoksa false döndurur
 }
