@@ -1,11 +1,9 @@
-public class U22AbstractClasses {
-    public static void main(String[] args) {
+public abstract class U22AbstractClasses {
 
-    }
 
     //ABSTRACT CLASSES
     //
-    //	public abstract class Personel{			//conrete bir class i abstact yapma
+    //	public abstract class Personel{			//concrete bir class i abstact yapma
     //	}
     //
     //=>ortak özellikleri olan nesneleri tek bir cati altinda toplamak icin kullanilir.
@@ -38,15 +36,20 @@ public class U22AbstractClasses {
     //
     //=>Abstract Class, nesnenin ne yapmasi gerektigini belirlerken NASIL yapmasi gerektigini belirleyebilir.
     //
+
+
+
     //public abstract class Personel {
-    //    String isim="yusuf";
-    //    public abstract void maasHesapla();
-    //    public abstract void mesaiBilgisi();
-    //    public void ozelSigorta(){
-    //        System.out.println("özel Sigortali");
-    //    }
-    //}
+        String isim="yusuf";
+        public abstract void maasHesapla();
+        public abstract void mesaiBilgisi();
+        public void ozelSigorta(){
+            System.out.println("özel Sigortali");
+        }
+    }
     //	*********
+
+
     //public class Isci extends Personel { //parent olarak abstract bir clas i edinmissek ondaki medthodlari imlement etmeliyiz.
     //    public static void main(String[] args) {
     //        Isci isci1 = new Isci();					//obje ürettik
@@ -110,4 +113,4 @@ public class U22AbstractClasses {
     //6) Icindeki tüm nesnelerin “public” olması zorunlu degildir
     //7) soyut olmayan metodlar static olarak tanımlanabilir.
     //8) Abstract class constructor’a sahiptir
-}
+

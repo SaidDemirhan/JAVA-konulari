@@ -94,23 +94,23 @@ public class U18Overridding {
     //
     //-tamamen methodlarla ilgiidir. Child in parentinden aldigi methodu kendine göre düzenlemesidir.
     //
-    //	public class Isci {				//parent class	//overridden(gecersiz kilinan)
-    //    		public int maasHesapla() {		//ayni isimle chil de de bu method var.
-    //        	return 30 * 8 * 15;
-    //    		}
-    //	}
-    //
-    //public class GeciciIsci extends Isci {    	//child class
-    //
-    //    public static void main(String[] args) {
-    //        GeciciIsci obj=new GeciciIsci();		//main method da obje ile yadiridigimizda
-    //        System.out.println(obj.maasHesapla());
-    //    }
-    //    @Override		//annotation denir ve Overriding edildigini anlatan bir aciklamadir.
-    //    public int maasHesapla() {				//kendi class indaki method u kullanir.
-    //        Return 30 * 8 * 10;			//overriding
-    //    }
-    //}
+//    	public class Isci {				//parent class	//overridden(gecersiz kilinan)
+//        		public int maasHesapla() {		//ayni isimle chil de de bu method var.
+//            	return 30 * 8 * 15;
+//        		}
+//    	}
+//
+//    public class GeciciIsci extends Isci {    	//child class
+//
+//        public static void main(String[] args) {
+//            GeciciIsci obj=new GeciciIsci();		//main method da obje ile yadiridigimizda
+//            System.out.println(obj.maasHesapla());
+//        }
+//        @Override		//annotation denir ve Overriding edildigini anlatan bir aciklamadir.
+//        public int maasHesapla() {				//kendi class indaki method u kullanir.
+//            Return 30 * 8 * 10;			//overriding
+//        }
+//    }
     //	*overriden; overriding edilmis method a denir.
     //	*Implement: Methodu kendine uyarlama
     //

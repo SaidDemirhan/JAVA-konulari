@@ -14,7 +14,8 @@ public interface U23Interface {
     //	public abstract void kasa();/abstract void kasa();/void kasa();/ da yazilsa ayni kabul edilir**.
     //	**return type lar farkli olabilir.
     //
-    //*istisna;Interface de default keyword u ile cocrete method olusturulabiliyor. AcsessModifier 	olan default degil,öyle olsaydi hem public hem default olurdu.Javanin özel cözüm durumudur. Tanim degismez!
+    //*istisna;Interface de default keyword u ile cocrete method olusturulabiliyor. AcsessModifier 	olan
+    // default degil,öyle olsaydi hem public hem default olurdu.Javanin özel cözüm durumudur. Tanim degismez!
     //
     //	public default void deneme(){
     //	}	//gibi. Buradaki default keyword methodun concrete oldugunu belirtir.
@@ -33,7 +34,8 @@ public interface U23Interface {
     //=>Bir Class implement edilen Interface (ler)in tüm methodlarini almak zorundadir.
     //=>Methodlarin tümü soyut olacagi icin static olamaz.
     //
-    //=>Eger almasini istemedigimiz bazi özellikler de varsa parent olarak bir CONCRETE Class olusturup o class a Interfacelerimizi IMPLEMENTS ederiz.(extends yerine implements yazariz.)
+    //=>Eger almasini istemedigimiz bazi özellikler de varsa parent olarak bir CONCRETE Class olusturup
+    // o class a Interfacelerimizi IMPLEMENTS ederiz.(extends yerine implements yazariz.)
     //
     //=>Abstract Class lar, baglandiklari Interface lerden Abstract methodlari almak zorunda degildir.
     //=>Hiz acisindan abstract class a göre daha yavastir.
